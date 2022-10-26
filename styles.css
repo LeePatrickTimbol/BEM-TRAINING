@@ -1,5 +1,352 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.banner {
+    background-image: url(/Assets/Rectangle\ 2.png);
+    height: 100vh;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content {
+    margin: 0px;
+    width: 50%;
+}
+
+.banner-row {
+    width: 50%;
+}
+
+.banner-row2 {
+    width: 55%;
+    padding: 10%;
+}
+
+.fa-regular .fa-cart-shopping {
+    font-size: 700px;
+}
+
+
+h1.banner-heading {
+    padding-bottom: 20px;
+    font-size: 49px;
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    text-align: right;
+    color: #292733;
+}
+
+p.banner-text {
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    color: #292733;
+}
+
+.services {
+    background-color: #C20502;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    padding: 80px;
+}
+
+.services-list {
+    max-width: 165px;
+    text-align: center;
+}
+
+.services-list h3 {
+    color: white;
+    padding-top: 10px;
+}
+
+.enquirerow1 {
+    background-image: url(/Assets/Rectangle\ 9.png);
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enquirerow2 {
+    background-image: url(/Assets/Rectangle\ 10.png);
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+   
+}
+.enquire {
+    display: flex;
+    min-height: 500px;
+}
+
+h2.enquirerow2-heading {
+    font-family: "Roboto Slab";
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+button.enquirerow2-button {
+    padding: 17px 35px;
+    background: #C20502;
+    border: none;
+    color: white;
+}
+
+.quality {
+    background-image: url(/Assets/Rectangle\ 83.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.quality-box {
+    width: 50%;text-align: center;
+}
+
+.quality {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1.quality-box__heading {
+    color: white;
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 52px;
+    font-family: "Roboto Slab";
+}
+
+p.quality-box__text {
+    color: #ffffff;
+    line-height: 24px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-family: 400;
+}
+
+.quality-box__button {
+    padding: 17px 35px;
+    background: #FFF;
+    border: none;
+    color: #C20502;
+}
+
+
+.deal--box {
+    display: flex;
+}
+
+.deal--row {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #000;
+    gap: 20px;
+}
+
+h2.deal--row__heading {
+    color: white;
+    font-weight: 700;
+    line-height: 39px;
+    font-size: 36px;
+    text-align: left;
+}
+
+.deal--row__container {
+    width: 62%;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.deal--row2 {
+    width: 40%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+p.deal--row__text {
+    color: #292733;
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+h3.deal--row__detail {
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #292733;
+    text-align: center;
+}
+
+.deal--img {
+    width: 50%;
+    background: #000;
+}
+
+.deal--img img {
+    margin-bottom: -90px;
+    width: 100%;
+}
+
+button.deal--row__button {
+    padding: 17px 35px;
+    background: #FFF;
+    border: none;
+    color: #C20502;
+}
+
+.timber_box {
+    max-width: 1200px;
+}
+
+.timber--prod__container {
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 5rem;
+}
+
+h1.timber--heading {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 60px;
+    font-family: "Roboto Slab";
+    color: #292733;
+    padding-bottom: 45px;
+}
+
+.timber {
+    padding: 10% 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.responsibility--box {
+    max-width: 1200px;
+    display: flex;
+}
+
+.responsibilty {
+    display: flex;
+    justify-content: center;
+}
+
+.responsibilty--row1 {
+    width: 50%;
+}
+
+.responsibilty--row2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5%;
+    background-color: #C20502;
+    color: #fff;
+    gap: 20px;
+}
+
+h2.responsibilty--row2__heading {
+    font-size: 40px;
+    font-family: "Roboto Slab";
+    line-height: 53px;
+}
+
+.responsibilty--row1 img {
+    width: 100%;
+    display: block;
+}
+
+button.responsibilty--row2__button {
+    padding: 17px 35px;
+    background: #FFF;
+    border: none;
+    color: #C20502;
+}
+
+.quality-box {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timber--item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+p.timber--item__category {
+    font-family: "Roboto Slab";
+    font-weight: 500;
+    font-size: 16px;
+    color: #888888;
+}
+
+
+p.timber--item__detail {
+     font-family: "Roboto Slab";
+     font-weight: 700;
+     font-size: 20px;
+     color: #292733;
+     max-width: 1200px;
+     width: 80%
+}
+
+p.timber--item__price {
+    font-family: "poppins";
+    color: #C20502;
+    font-weight: 700;
+}
+
+/*  */
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
 
 *{
     box-sizing: border-box;
@@ -58,30 +405,11 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 0 150px 0;
+    padding: 8% 0;
 }
 
 .newsletter_container{
     text-align: center;
-
-}
-
-h1{
-   font-family: Roboto Slab;
-   font-size: 64px; 
-   font-weight: 700;
-   color: #fff;
-   line-height: 67.7px;
-
-}
-
-p {
-    font-family: poppins;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #fff;
-    padding-bottom: 30px;
 
 }
 
@@ -114,25 +442,22 @@ input{
     
 }
 
+
+.timber_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
 .timber_walls{
     background: url(/Assets/whole-image.png);
-    justify-content: center;
-    align-items: center;
-    padding: 40px 60px 40px 60px;
-    background-size: 100% 100%;
-    height: 100vh;
-    object-fit: cover;
+    background-size: cover;
+    padding: 10% 0px;
     background-repeat: no-repeat;
 
 }
 
-.timber_walls_container{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-
-}
 
 .btn_shopnow{
     font-family: poppins;
@@ -144,29 +469,79 @@ input{
     padding: 20px 40px;
     gap: 10px;
     background: #fff;
+    border: none;
+    border-radius: 2px;
 
 }
 
+.box_one {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    background-image:  url(/Assets/left-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+
+}
+
+.box_two {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding-left: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    background-image:  url(/Assets/right-image.png);
+    
+
+}
+
+.container_hardware {
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+}
 
 
+p.box_text {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+/* identical to box height */
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+}
 
+h2.box_title {
+    margin: 0;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+/* identical to box height, or 40px */
+    color: #FFFFFF;
+    padding: 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+button.box_btn {
+    padding: 20px 40px;
+    color: #C20502;
+}
 
 
 footer{
@@ -176,15 +551,18 @@ footer{
     padding: 30px 0px 20px 80px;
     background-color: #292733;
     flex-direction: row;
+    padding-bottom: 50px;
     
 }
 
 
-
 .footer-left{
-    margin-right: 1.25rem;
-    margin-bottom: 2em;
-
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px
+    
 }
 
 .logo .logotwo {
@@ -193,20 +571,8 @@ footer{
 
 }
 
-
-h2{
-    font-weight: 400;
-    font-size: 20px;
-    color: white;
-    padding-left: 20px;
-
-}
-
 .footer ul{
     list-style: none;
-    padding-left: 20px;
-    
-
 }
 
 .footer li{
@@ -214,6 +580,11 @@ h2{
     color: #888;
     list-style: none;
 
+}
+
+.footer h2 {
+    padding-bottom: 20px;
+    font-family: Roboto Slab;
 }
 
 .footer a{
@@ -230,22 +601,139 @@ h2{
 
 }
 
-
 .footer-bottom{
    display: flex;
    justify-content: space-between;
    text-align: center; 
    color: #999;
-   padding: 30px 180px 30px 180px;
-   
+   padding: 20px 180px 30px 180px;
    background-color: #17161D;
+   align-items: center;
+}
 
+footer-bottom p {
+    font-family: poppins;
 }
 
 .footer-left p{
     padding-right: 20%;
     color: #fff;
     font-family: poppins;
-
 }
 
+.newswrapper p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+
+.newswrapper h1 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 105.5%;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.newswrapper {}
+
+.newswrapper h1 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 105.5%;
+/* identical to box height, or 68px */
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.newswrapper p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+
+.timber_wrapper h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.timber_wrapper h1 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 105.5%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.timber_wrapper p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+section.timber_walls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timber_walls_container {
+    max-width: 1200px;
+}
+
+.responsibilty {
+    padding: 5% 0%;
+}
+
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+a.pagination--item {
+    padding: 10px 15px;
+    color: #C20502;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
